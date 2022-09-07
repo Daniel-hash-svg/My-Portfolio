@@ -131,6 +131,11 @@ span{
     color: rgb(0, 174, 255);
 }
 
+.e-commerce{
+    color: rgb(0, 174, 255);
+    font-size: 18px;
+}
+
 .linksProject:hover{
    
     color: blueviolet;
@@ -337,6 +342,12 @@ h3{
             margin-right: 50px;
         }
         
+        .e-commerce{
+            color: rgb(0, 174, 255);
+            font-size: 16px;
+            margin-right: 50px;
+        }
+
         .projectImage{
             border: 2px solid;
             border-color: gray;
@@ -536,6 +547,12 @@ h3{
         margin-right: 50px;
     }
     
+    .e-commerce{
+        color: rgb(0, 174, 255);
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
     .projectImage{
         border: 2px solid;
         border-color: gray;
@@ -733,6 +750,12 @@ h3{
         margin-right: 50px;
     }
     
+    .e-commerce{
+        color: rgb(0, 174, 255);
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
     .projectImage{
         border: 2px solid;
         border-color: gray;

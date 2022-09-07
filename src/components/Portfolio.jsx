@@ -19,8 +19,8 @@ const Portfolio = () => {
 
         <div className='project'>
          
-         <a href="" target="_blank" rel="noreferrer" className='linksProject'>E-COMMERCE </a>
-         <br /> <br />
+         <div className='e-commerce'>E-COMMERCE </div>
+         <br /> 
          <a href="https://github.com/Daniel-hash-svg/e-commerce-musical-instruments" target="_blank" rel="noreferrer" className='linksProject'>REPOSITÓRIO</a>
        
          <div className='projectImage'>
