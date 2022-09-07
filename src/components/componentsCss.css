@@ -217,7 +217,204 @@ h3{
 } /* criei classname pra esse porque eu tinha usado a tag P, mas o hover tava pegando essa tag sempre. */
 
 
-@media (max-width: 375px) { /* botei  máximo nessa porque é a do iphone X. Só vai valer pras larguras menores que a do iphone X*/
+@media (min-width: 200px) and (max-width: 280px) {
+    
+        .header{
+            width: 100%;
+            height: 120px;
+            background-color: rgb(231, 117, 145);
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .meuNome{
+            font-size: 15px;
+            margin-top: 45px;
+            margin-right: 10px;
+        }
+        
+        .headerTopics{
+           display: flex;
+           flex-direction: column;
+           margin-right: 50px;
+        }
+        
+        p{
+            margin-top: 20px;
+            margin-left: 40px;
+            font-size: 14px;
+         }
+
+         .wrapperAbout{
+            padding-top: 270px;
+            background-color: #f5fafd; 
+        }
+        
+        .separator{
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+        }
+    
+        .description{
+           width: 70%;
+            display: flex;
+            font-style:italic;
+            margin-top: 95px;
+            margin-left: 32px;
+            font-size: 17px;
+        }
+    
+        .imagePerfil{
+            border-radius: 50%;
+            width: 140px; 
+            margin-top: 35px;
+            margin-left: 60px;
+            margin-bottom: 180px;
+        }
+    
+
+        h1{
+            color: blueviolet;
+            display: flex;
+            justify-content: center;
+            background-color: #f5fafd;
+            font-size: 19px;
+        }
+    
+        .knowledgeContent{
+            display: flex;
+            flex-direction: column;
+            margin-left: -95px;
+            background-color: #f5fafd;
+        }
+        
+        .listKnowledge{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column; 
+        }
+        
+        .knowledgeDrawing{
+            width: 37%;
+            margin-left: 160px;
+        }
+        
+        span{
+            background-color: rgb(0, 255, 213);
+            border-radius: 15%;
+            padding: 0.50rem;
+            height: 35px;
+            margin-top: 5px;
+            color: black;
+            font-size: 13px;
+            width: 37%;
+        }
+    
+        .portfolio{
+            background-color: #f5fafd;
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+        .allProjects{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        
+        .project{
+            margin-top: 50px;
+        }
+        
+        .linksProject{
+            font-size: 16px;
+            font-style: italic;
+            text-decoration: none;
+            color: rgb(0, 174, 255);
+            margin-right: 50px;
+        }
+        
+        .projectImage{
+            border: 2px solid;
+            border-color: gray;
+            width: 250px;
+            height: 200px;
+            margin-top: 25px;
+            margin-left: -4px;
+        }
+        
+        .imagesPortfolio{
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        .wrapperContact{
+            background-color: #f5fafd;
+            padding-top: 120px;
+        }
+        
+        .contact{
+         text-align: center;
+         background-color: #f5fafd;
+         height: 450px;
+        }
+        
+        h2{
+            color: rgb(0, 255, 213);
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        
+        .logosUmDois{
+           width: 38px;
+           margin-bottom: 5px;
+           margin-right: 10px;
+        }
+        
+        .logoGithub{
+            width: 35px; 
+           margin-top: 5px;
+           
+        } /* criei classes diferentes porque as imagens de logo do github tem dimensão diferente da logo do linkedin e instagram. */
+        
+        .logoLinkedinEInsta{
+            width: 45px;   
+        }
+        
+        .contactLogos{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            margin-right: 15px;
+        }
+    
+        footer{
+            background-color: rgb(231, 117, 145);
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        h3{
+            margin-top: 20px;
+            font-size: 20px;
+            margin-bottom: 5px;
+            margin-right: 1px;
+        }
+        
+        .rightsDeserved{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-right: 5px;
+        } 
+        
+}
+
+
+@media (min-width: 281px) and (max-width: 375px) { /* botei  máximo nessa porque é usei iphone X como um parâmetro. */
 
     .header{
         width: 100%;
@@ -242,11 +439,11 @@ h3{
     p{
         margin-top: 20px;
         margin-left: 40px;
-        font-size: 12px;
+        font-size: 14px;
      }
 
     .wrapperAbout{
-        padding-top: 130px;
+        padding-top: 160px;
         background-color: #f5fafd; 
     }
     
@@ -260,9 +457,9 @@ h3{
        width: 70%;
         display: flex;
         font-style:italic;
-        margin-top: 15px;
+        margin-top: 95px;
         margin-left: 32px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .imagePerfil{
@@ -270,6 +467,7 @@ h3{
         width: 140px; 
         margin-top: 35px;
         margin-left: 95px;
+        margin-bottom: 50px;
     }
 
     h1{
@@ -278,13 +476,13 @@ h3{
         margin-left: -35px;
         justify-content: center;
         background-color: #f5fafd;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .knowledgeContent{
         display: flex;
         flex-direction: column;
-        margin-left: -60px;
+        margin-left: -67px;
         background-color: #f5fafd;
     }
     
@@ -295,8 +493,8 @@ h3{
     }
     
     .knowledgeDrawing{
-        width: 35%;
-        margin-left: 150px;
+        width: 37%;
+        margin-left: 160px;
     }
     
     span{
@@ -306,8 +504,8 @@ h3{
         height: 35px;
         margin-top: 5px;
         color: black;
-        font-size: 12px;
-        width: 30%;
+        font-size: 13px;
+        width: 37%;
     }
 
     .portfolio{
@@ -413,7 +611,201 @@ h3{
     
 }
 
-/* comentário apenas pra fazer o segundo commit e push, pra subir tudo pro github certinho. */
+@media (min-width: 376px) and (max-width: 500px) { /* precisa ter min e max. Senão muda o css da aplicação no computador.*/
+    .header{
+        width: 100%;
+        height: 140px;
+        background-color: rgb(231, 117, 145);
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .meuNome{
+        font-size: 18px;
+        margin-top: 45px;
+        margin-right: 50px;
+    }
+    
+    .headerTopics{
+       display: flex;
+       flex-direction: column;
+       margin-right: 100px;
+    }
+    
+    p{
+        margin-top: 23px;
+        margin-left: 40px;
+        font-size: 15px;
+     }
+    
+     .wrapperAbout{
+        padding-top: 180px;
+        background-color: #f5fafd; 
+    }
+    
+    .separator{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
 
+    .description{
+        width: 70%;
+        display: flex;
+        font-style:italic;
+        margin-top: 130px;
+        margin-left: 40px;
+        font-size: 19px;
+    }
+
+    .imagePerfil{
+        border-radius: 50%;
+        width: 150px; 
+        margin-top: 35px;
+        margin-left: 115px;
+        margin-bottom: 40px;
+    }
+
+    h1{
+        color: blueviolet;
+        display: flex;
+        margin-left: -35px;
+        justify-content: center;
+        background-color: #f5fafd;
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .knowledgeContent{
+        display: flex;
+        flex-direction: column;
+        margin-left: -52px;
+        background-color: #f5fafd;
+    }
+    
+    .listKnowledge{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .knowledgeDrawing{
+        width: 40%;
+        margin-left: 150px;
+       
+    }
+    
+    span{
+        background-color: rgb(0, 255, 213);
+        border-radius: 15%;
+        padding: 0.60rem;
+        height: 35px;
+        margin-top: 5px;
+        color: black;
+        font-size: 15px;
+        width: 40%;
+    }
+
+    .portfolio{
+        background-color: #f5fafd;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .allProjects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    .project{
+        margin-top: 50px;
+    }
+    
+    .linksProject{
+        font-size: 16px;
+        font-style: italic;
+        text-decoration: none;
+        color: rgb(0, 174, 255);
+        margin-right: 50px;
+    }
+    
+    .projectImage{
+        border: 2px solid;
+        border-color: gray;
+        width: 250px;
+        height: 200px;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    
+    .imagesPortfolio{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .wrapperContact{
+        background-color: #f5fafd;
+        padding-top: 120px;
+    }
+    
+    .contact{
+     text-align: center;
+     background-color: #f5fafd;
+     height: 450px;
+    }
+    
+    h2{
+        color: rgb(0, 255, 213);
+        font-size: 22px;
+        margin-right: 40px;
+    }
+    
+    .logosUmDois{
+       width: 38px;
+       margin-bottom: 5px;
+       margin-right: 40px;
+    }
+    
+    .logoGithub{
+        width: 35px; 
+       margin-top: 5px;
+       
+    }
+
+    .logoLinkedinEInsta{
+        width: 45px;   
+    }
+    
+    .contactLogos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    footer{
+        background-color: rgb(231, 117, 145);
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    h3{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-right: 15px;
+    }
+    
+    .rightsDeserved{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-right: 25px;
+    } 
+}
 
 
