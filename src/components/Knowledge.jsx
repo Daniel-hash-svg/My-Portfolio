@@ -5,7 +5,7 @@ const Knowledge = () => {
   return (
     <div className='wrapperKnowledge'>
       
-        <h1>Habilidades e Tecnologias que uso </h1>
+        <h1 className='meuH1'>Habilidades e Tecnologias que uso </h1>
         <div className='knowledgeContent'>
             <div className='listKnowledge'>
               <span>REACT</span>
