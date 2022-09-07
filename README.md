@@ -1,4 +1,4 @@
-LINK OF THE PROJECT(MY PORTFOLIO) ON VERCEL: 
+LINK OF THE PROJECT(MY PORTFOLIO) ON VERCEL: https://my-portfolio-aq1so2s70-danielceci96-gmailcom.vercel.app/
 
 # Getting Started with Create React App
 
